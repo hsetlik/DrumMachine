@@ -4,6 +4,13 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="ZgBT8k" name="DrumMachine">
     <GROUP id="{C8AE192C-7500-025C-427D-10682D302604}" name="Source">
+      <FILE id="GoUmKH" name="Sequence.cpp" compile="1" resource="0" file="Source/Sequence.cpp"/>
+      <FILE id="VhU9B2" name="Sequence.h" compile="0" resource="0" file="Source/Sequence.h"/>
+      <FILE id="cQ1GOT" name="DrumPad.cpp" compile="1" resource="0" file="Source/DrumPad.cpp"/>
+      <FILE id="uJkT2E" name="DrumPad.h" compile="0" resource="0" file="Source/DrumPad.h"/>
+      <FILE id="itKwi6" name="StepSequencer.cpp" compile="1" resource="0"
+            file="Source/StepSequencer.cpp"/>
+      <FILE id="B8ewAq" name="StepSequencer.h" compile="0" resource="0" file="Source/StepSequencer.h"/>
       <FILE id="pclQlY" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="d6Gydz" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="Ncvi1I" name="MainComponent.cpp" compile="1" resource="0"
@@ -47,4 +54,7 @@
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
 </JUCERPROJECT>
